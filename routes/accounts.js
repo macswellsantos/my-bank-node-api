@@ -118,15 +118,6 @@ router.patch('/updateBalance', async (req, res, next) => {
   }
 });
 
-//apenas para teste
-router.put('/updateBalance', async (req, res, next) => {
-  try{
-    res.send('utilizar metódo PATCH');
-  } catch(err) {
-    next(err);
-  }
-});
-
 router.use((err, req, res, next) => {
   logs.error(`${req.method} ${req.baseUrl} - ${err.message}`);
   res.status(400).send({ error: err.message });
