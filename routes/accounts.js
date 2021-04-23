@@ -17,7 +17,7 @@ router.post('/', async (req, res, next) => {
     account = {
       id: data.nextId++,
       name: account.name,
-      balance: account.balanc,
+      balance: account.balance,
     };
     data.accounts.push(account);
 
@@ -114,6 +114,14 @@ router.patch('/updateBalance', async (req, res, next) => {
     res.send(data.accounts[index]);
     logs.info(`PATCH /account/updateBalance`);
   } catch (err) {
+    next(err);
+  }
+});
+
+router.put('/updateBalance', async (req, res, next) => {
+  try{
+    res.send('Itilizar metódo PATCH');
+  } catch(err) {
     next(err);
   }
 });
