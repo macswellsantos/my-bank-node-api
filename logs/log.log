@@ -1,0 +1,6 @@
+2021-03-24T20:02:33.562Z [my-bank-api] error: ENOENT: no such file or directory, open 'C:\Users\macsw\Desktop\Bootcamp - Desenvolvedor Full Stack\Módulo 2\Aulas\my-bank-api\accounts.json'
+2021-03-24T20:51:37.042Z [my-bank-api] error: ENOENT: no such file or directory, open 'C:\Users\macsw\Desktop\Bootcamp - Desenvolvedor Full Stack\Módulo 2\Aulas\my-bank-api\accounts.json'
+2021-03-24T20:53:46.075Z [my-bank-api] info: Realização de listagem das contas
+2021-03-24T22:32:38.580Z [my-bank-api] info: Realização de listagem das contas
+2021-03-25T00:40:23.989Z [my-bank-api] info: Realização de listagem das contas
+2021-03-25T00:45:03.369Z [my-bank-api] error: GET /account - ENOENT: no such file or directory, open 'C:\Users\macsw\Desktop\Bootcamp - Desenvolvedor Full Stack\Módulo 2\Aulas\my-bank-api\accounts.json'
